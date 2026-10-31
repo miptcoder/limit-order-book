@@ -1,2 +1,1 @@
-# limit-order-book
-Low-latency limit order book and matching engine in C++20
+![CI](https://github.com/miptcoder/limit-order-book/actions/workflows/ci.yml/badge.svg)
