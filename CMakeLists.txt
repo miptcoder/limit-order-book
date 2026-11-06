@@ -25,7 +25,7 @@ set(INSTALL_GTEST OFF)
 FetchContent_MakeAvailable(googletest benchmark)
 
 enable_testing()
-add_executable(tests tests/smoke_test.cpp)
+add_executable(tests tests/smoke_test.cpp tests/order_book_test.cpp)
 target_link_libraries(tests PRIVATE lob GTest::gtest_main)
 include(GoogleTest)
 gtest_discover_tests(tests)
